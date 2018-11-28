@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './css/App.css';
-import './js/sudoku';
+import initBoard from "./js/sudoku";
 import Logo from './components/Logo';
 import Bottom from "./components/Bottom";
 import SudokuBoard from './components/SudokuBoard';
 import HowTo from './components/FrontPage';
+
 
 
 
@@ -23,7 +24,6 @@ class App extends Component {
       var	handleToUpdate	=	this.handleToUpdate;
     return (
     <React.Fragment>
-
         <header>
             <h1>Simple Sudoku App</h1>
             <HowTo />
@@ -37,7 +37,6 @@ class App extends Component {
                 <Bottom nextClick={this.state.nextClick} handleToUpdate={handleToUpdate.bind(this)} />
             </footer>
         </main>
-
      </React.Fragment>
     );
   }

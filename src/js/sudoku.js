@@ -1,0 +1,121 @@
+import React from 'react';
+
+export function initBoard() {
+    let id1 = parseFloat(document.getElementById('id1').innerText);
+    let id2 = parseFloat(document.getElementById('id2').innerText);
+    let id3 = parseFloat(document.getElementById('id3').innerText);
+    let id4 = parseFloat(document.getElementById('id4').innerText);
+    let id5 = parseFloat(document.getElementById('id5').innerText);
+    let id6 = parseFloat(document.getElementById('id6').innerText);
+    let id7 = parseFloat(document.getElementById('id7').innerText);
+    let id8 = parseFloat(document.getElementById('id8').innerText);
+    let id9 = parseFloat(document.getElementById('id9').innerText);
+    let id10 = parseFloat(document.getElementById('id10').innerText);
+    let id11 = parseFloat(document.getElementById('id11').innerText);
+    let id12 = parseFloat(document.getElementById('id12').innerText);
+    let id13 = parseFloat(document.getElementById('id13').innerText);
+    let id14 = parseFloat(document.getElementById('id14').innerText);
+    let id15 = parseFloat(document.getElementById('id15').innerText);
+    let id16 = parseFloat(document.getElementById('id16').innerText);
+    let id17 = parseFloat(document.getElementById('id17').innerText);
+    let id18 = parseFloat(document.getElementById('id18').innerText);
+    let id19 = parseFloat(document.getElementById('id19').innerText);
+    let id20 = parseFloat(document.getElementById('id20').innerText);
+    let id21 = parseFloat(document.getElementById('id21').innerText);
+    let id22 = parseFloat(document.getElementById('id22').innerText);
+    let id23 = parseFloat(document.getElementById('id23').innerText);
+    let id24 = parseFloat(document.getElementById('id24').innerText);
+    let id25 = parseFloat(document.getElementById('id25').innerText);
+    let id26 = parseFloat(document.getElementById('id26').innerText);
+    let id27 = parseFloat(document.getElementById('id27').innerText);
+    let id28 = parseFloat(document.getElementById('id28').innerText);
+    let id29 = parseFloat(document.getElementById('id29').innerText);
+    let id30 = parseFloat(document.getElementById('id30').innerText);
+    let id31 = parseFloat(document.getElementById('id31').innerText);
+    let id32 = parseFloat(document.getElementById('id32').innerText);
+    let id33 = parseFloat(document.getElementById('id33').innerText);
+    let id34 = parseFloat(document.getElementById('id34').innerText);
+    let id35 = parseFloat(document.getElementById('id35').innerText);
+    let id36 = parseFloat(document.getElementById('id36').innerText);
+    let id37 = parseFloat(document.getElementById('id37').innerText);
+    let id38 = parseFloat(document.getElementById('id38').innerText);
+    let id39 = parseFloat(document.getElementById('id39').innerText);
+    let id40 = parseFloat(document.getElementById('id40').innerText);
+    let id41 = parseFloat(document.getElementById('id41').innerText);
+    let id42 = parseFloat(document.getElementById('id42').innerText);
+    let id43 = parseFloat(document.getElementById('id43').innerText);
+    let id44 = parseFloat(document.getElementById('id44').innerText);
+    let id45 = parseFloat(document.getElementById('id45').innerText);
+    let id46 = parseFloat(document.getElementById('id46').innerText);
+    let id47 = parseFloat(document.getElementById('id47').innerText);
+    let id48 = parseFloat(document.getElementById('id48').innerText);
+    let id49 = parseFloat(document.getElementById('id49').innerText);
+    let id50 = parseFloat(document.getElementById('id50').innerText);
+    let id51 = parseFloat(document.getElementById('id51').innerText);
+    let id52 = parseFloat(document.getElementById('id52').innerText);
+    let id53 = parseFloat(document.getElementById('id53').innerText);
+    let id54 = parseFloat(document.getElementById('id54').innerText);
+    let id55 = parseFloat(document.getElementById('id55').innerText);
+    let id56 = parseFloat(document.getElementById('id56').innerText);
+    let id57 = parseFloat(document.getElementById('id57').innerText);
+    let id58 = parseFloat(document.getElementById('id58').innerText);
+    let id59 = parseFloat(document.getElementById('id59').innerText);
+    let id60 = parseFloat(document.getElementById('id60').innerText);
+    let id61 = parseFloat(document.getElementById('id61').innerText);
+    let id62 = parseFloat(document.getElementById('id62').innerText);
+    let id63 = parseFloat(document.getElementById('id63').innerText);
+    let id64 = parseFloat(document.getElementById('id64').innerText);
+    let id65 = parseFloat(document.getElementById('id65').innerText);
+    let id66 = parseFloat(document.getElementById('id66').innerText);
+    let id67 = parseFloat(document.getElementById('id67').innerText);
+    let id68 = parseFloat(document.getElementById('id68').innerText);
+    let id69 = parseFloat(document.getElementById('id69').innerText);
+    let id70 = parseFloat(document.getElementById('id70').innerText);
+    let id71 = parseFloat(document.getElementById('id71').innerText);
+    let id72 = parseFloat(document.getElementById('id72').innerText);
+    let id73 = parseFloat(document.getElementById('id73').innerText);
+    let id74 = parseFloat(document.getElementById('id74').innerText);
+    let id75 = parseFloat(document.getElementById('id75').innerText);
+    let id76 = parseFloat(document.getElementById('id76').innerText);
+    let id77 = parseFloat(document.getElementById('id77').innerText);
+    let id78 = parseFloat(document.getElementById('id78').innerText);
+    let id79 = parseFloat(document.getElementById('id79').innerText);
+    let id80 = parseFloat(document.getElementById('id80').innerText);
+    let id81 = parseFloat(document.getElementById('id81').innerText);
+
+    let c1 = [id1, id4, id7, id28, id31, id34, id55, id58, id61];
+    let c2 = [id2, id5, id8, id29, id32, id25, id56, id59, id62];
+    let c3 = [id3, id6, id9, id30, id33, id36, id57, id60, id63];
+    let c4 = [id10, id13, id16, id37, id40, id43, id64, id67, id70];
+    let c5 = [id11, id14, id17, id38, id41, id44, id65, id68, id71];
+    let c6 = [id12, id15, id18, id39, id42, id45, id66, id69, id72];
+    let c7 = [id19, id22, id25, id46, id49, id52, id73, id76, id79];
+    let c8 = [id20, id23, id26, id47, id50, id53, id74, id77, id80];
+    let c9 = [id21, id24, id27, id48, id51, id54, id75, id78, id81];
+
+    let r1 = [id1, id2, id3, id10, id11, id12, id19, id20, id21];
+    let r2 = [id4, id5, id6, id13, id14, id15, id22, id23, id24];
+    let r3 = [id7, id8, id9, id16, id17, id18, id25, id26, id27];
+    let r4 = [id28, id29, id30, id37, id38, id39, id46, id47, id48];
+    let r5 = [id31, id32, id33, id40, id41, id42, id49, id50, id51];
+    let r6 = [id34, id35, id36, id43, id44, id45, id52, id53, id54];
+    let r7 = [id55, id56, id57, id64, id65, id66, id73, id74, id75];
+    let r8 = [id58, id59, id60, id67, id68, id69, id76, id77, id78];
+    let r9 = [id61, id62, id63, id79, id71, id72, id79, id80, id81];
+
+    let s1 = [id1, id2, id3, id4, id5, id6, id7, id8, id9];
+    let s2 = [id10, id11, id12, id13, id14, id15, id16, id17, id18];
+    let s3 = [id19, id20, id21, id22, id23, id24, id25, id26, id27];
+    let s4 = [id28, id29, id30, id31, id32, id33, id34, id35, id36];
+    let s5 = [id37, id38, id39, id40, id41, id42, id43, id44, id45];
+    let s6 = [id46, id47, id48, id49, id50, id51, id52, id53, id54];
+    let s7 = [id55, id56, id57, id58, id59, id60, id61, id62, id63];
+    let s8 = [id64, id65, id66, id67, id68, id69, id70, id71, id72];
+    let s9 = [id73, id74, id75, id76, id77, id78, id79, id80, id81];
+
+    return (
+        <React.Fragment>
+
+        </React.Fragment>
+    );
+}

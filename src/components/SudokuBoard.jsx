@@ -3,11 +3,17 @@ import Grid from "@material-ui/core/Grid/Grid";
 import Button from '@material-ui/core/Button';
 
 export default class  SudokuBoard extends Component {
+    constructor(props){
+    super(props);
+    }
 
     handleChange(event) {
-        document.getElementById(event.target.id).innerText = this.props.nextClick;
+        document.getElementById(event.target.id).innerText =  this.props.nextClick;
         console.log(event.target.id);
+
     }
+
+
     render() {
         return (
             <React.Fragment>
