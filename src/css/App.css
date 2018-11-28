@@ -1,0 +1,104 @@
+/* Main */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+main,
+header{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+main {
+  display: none;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+/* Logo and Background */
+
+.App-logo{
+  animation: App-logo-spin infinite 20s linear;
+  background-image: url("../img/logo.svg");
+  height: 40vh;
+  width: 50vh;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Other */
+.front-btn {
+  padding: 15px!important;
+  margin: 5px!important;
+}
+
+/* Sudoku styling */
+.sudoku-board {
+
+}
+
+.cell {
+  min-width: 40px!important;
+  min-height: 40px!important;
+  width: 40px!important;
+  height: 40px!important;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 440px) {
+  .cell {
+    min-width: 20px!important;
+    min-height: 20px!important;
+    width: 20px!important;
+    height: 20px!important;
+  }
+
+  button {
+    padding: 15px!important;
+  }
+
+}
